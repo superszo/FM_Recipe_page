@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: Outfit, sans-serif ;
+    font-weight: regular;
+    padding: 122px 0 122px 0;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: regular;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: #854632;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin: 0;
+}
+
+hr {
+    background-color: #E3DDD7;
+    margin-top: 32px;
+    height: 1px;
+    border: none;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+    
+}
+
+ul li::marker, ol li::marker {
+    color: #7A284E;
+    font-family: Outfit, sans-serif;
+    font-weight: bold;
+}
+
+li {
+    padding-left: 15px;
+}
+
+
+li span {
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+p, li {
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+    margin-top: 8px;
+}
+
+table {
+    font-family: Outfit, sans-serif ;
+    font-weight: regular;
+    color: hsl(30, 10%, 34%);
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 32px;
+}
+
+tr {
+    border: 1px solid #E3DDD7;
+    border-left: none;
+    border-right: none;
+
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.table-item {
+    padding: 12px 0 12px 32px;
+    width: 50%;
+}
+
+.table-value {
+    font-weight: bold;
+    color: #854632; 
+    padding: 12px 0 12px 16px;
+    width: 50%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 27px;
+    padding: 40px;
+    width: 656px;  
+    margin: auto;
+}
+
+.top-image {
+    border-radius: 27px;
+    margin: auto;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+
+.preparation {
+    background-color: #FFF7FB;
+    padding: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    body {
+        background-color: white;
+    }
+    
+    main {
+        padding: 0;
+    }
+   
+    .card  {
+        border-radius: 0;
+        width: 100%;
+        height:100%;
+        padding: 0;
+    }
+
+    .top-image {
+        border-radius: 0;
+        width:100%;
+        margin: 0;
+    }
+
+    .attribution {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-content {
+        padding: 0 32px 40px 32px;
+    }
+}
+
